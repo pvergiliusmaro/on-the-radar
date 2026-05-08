@@ -11,7 +11,7 @@ It also grew organically as I automated pieces of my workflow and solved small p
 ## The Problem
 Job searching at a senior level means keeping an eye on a lot of companies. I dutifully made a spreadsheet of target companies, but keeping it current was heavy on data-entry drudgery. I come across interesting potential employers all the time, and would have to stop what I was doing to add them to the tracking sheet. Then at some point go back, do some research, manually populate info into the sheet. And then try to check back in regularly. 
 
-The monitoring piece — *did anything change at this company since I last looked?* — was scattershot at best. 
+The monitoring piece—*did anything change at this company since I last looked?*—was scattershot at best. 
 
 I wanted something that would:
 * Capture companies in one click as I browsed
@@ -23,11 +23,11 @@ I wanted something that would:
 ### Stage 1 — Capture
 A Chrome extension sits in your toolbar. When you land on a company's homepage, click it. The company name is pre-filled from the page title (editable if needed). One more click and the name and URL are in your tracker sheet. No copy-pasting, no tab-switching.
 ### Stage 2 — Research & Triage
-Once a week, I open a Perplexity Space configured with a research prompt, paste in the week's new companies, and get back structured profiles: funding stage, headcount, growth indicators, hiring trends, key challenges, and a LinkedIn contact worth making. I use that to set a priority — High, Medium, Low, or Reject — in the sheet.
+Once a week, I open a Perplexity Space configured with a research prompt, paste in the week's new companies, and get back structured profiles: funding stage, headcount, growth indicators, hiring trends, key challenges, and a LinkedIn contact worth making. I use that to set a priority — High, Medium, Low, or Reject—in the sheet.
 ### Stage 3 — Monitor
 Two Perplexity Tasks run on a schedule and land in my inbox:
-* **High/Medium priority companies** — scanned every weekday for job postings, funding news, leadership changes, product launches, and press coverage worth commenting on
-* **Low priority companies** — scanned weekly for signals that warrant upgrading their priority
+* **High/Medium priority companies**—scanned every weekday for job postings, funding news, leadership changes, product launches, and press coverage worth commenting on
+* **Low priority companies**—scanned weekly for signals that warrant upgrading their priority
 
 ⠀
 ## What's Included
@@ -39,13 +39,13 @@ Two Perplexity Tasks run on a schedule and land in my inbox:
 
 
 ## Installation
-**Requirements:** Google Chrome (the extension uses Chrome's identity API — Arc, Brave, and Firefox are not supported)
+**Requirements:** Google Chrome (the extension uses Chrome's identity API—Arc, Brave, and Firefox are not supported)
 1. Download or clone this repo
 2. Open chrome://extensions in Chrome
 3. Enable **Developer Mode** (toggle in the top right)
 4. Click **Load unpacked** and select the extension/ folder
 5. Navigate to any webpage and click the extension icon in your toolbar
-6. Click **Connect to Google** — you'll be asked to grant access to Google Drive files created by this app (nothing else)
+6. Click **Connect to Google**—you'll be asked to grant access to Google Drive files created by this app (nothing else)
 7. Your "Company Tracker" sheet is created automatically in your Google Drive
 
 
@@ -89,7 +89,7 @@ This is a working personal tool I built for my own job search and am open sourci
 **Known limitations:**
 * Chrome only (no Arc, Brave, Firefox)
 * Perplexity Tasks requires a Pro subscription ($20/month)
-* Monitoring prompt uses a static company list that needs manual update after each triage session. I attempted to automate via Perplexity’s Google Drive integration but hit platform limitations; I ultimately decided a once-a-week manual update was an acceptable tradeoff over paying for API credits.
+* There are still a number of manual steps-I started down the path of full automation but realized it was overkill. A little tab-switching and copy-pasting is an acceptable tradeoff.
 
 
 *Built May 2026*
