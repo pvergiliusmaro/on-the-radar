@@ -60,7 +60,7 @@ Priority dropdown includes: High / Medium / Low / Reject/NA
 ## The Weekly Workflow
 **Daily:** Browse normally. Click the extension when you spot a company worth tracking.
 
-**Weekday mornings:** Perplexity Task digest lands in your inbox. Scan for action signals—a role worth applying to, a funding announcement worth commenting on, a leadership change worth noting.
+**Weekday mornings:** Perplexity Task digest lands in your inbox. Scan for action signals: a role worth applying to, a funding announcement worth commenting on, a leadership change worth noting.
 
 **Weekly (~20 min):**
 1. Open the Perplexity Research Space
@@ -85,6 +85,7 @@ Useful if you want to seed your list after the sheet is created, or if you want 
 ⠀
 ## Status
 This is a working personal tool I built for my own job search and am open sourcing in case it's useful to others. It's not a polished product — there are rough edges, and I'm not providing support. Fork it, adapt it, make it yours.
+
 
 **Known limitations:**
 * Chrome only (no Arc, Brave, Firefox)
