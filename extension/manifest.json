@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Track Company",
+  "version": "2.0",
+  "description": "Add companies to your job search tracker — no server required",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "Track this company"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://sheets.googleapis.com/*",
+    "https://www.googleapis.com/*",
+    "https://accounts.google.com/*"
+  ],
+  "oauth2": {
+    "client_id": "999306948023-9tngo4ijg5o6ejpea7s0v06r80bkv2k1.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/spreadsheets",
+      "https://www.googleapis.com/auth/drive.file"
+    ]
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
