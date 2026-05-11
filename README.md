@@ -3,7 +3,7 @@
 
 A lightweight system I built to take the manual grind out of company research during my job search. It combines a Chrome extension, Google Sheets, and Perplexity into a three-stage workflow: capture companies as you find them, research and prioritize them on a cadence, and passively monitor for signals worth acting on.
 
-I'm a senior product leader who has always been technically fluent but never technically expressive—i.e., decent reading comprehension but only basic writing skills—so this was built with Claude as a pair programmer. 
+I'm a senior product leader who has always been technically fluent but never technically expressive—i.e., decent code reading comprehension but only basic code writing skills—so this was built with Claude as a pair programmer. 
 
 It also grew organically as I automated pieces of my workflow and solved small problems over the course of a few weeks. This is the first time it’s been put together as a package. 
 
