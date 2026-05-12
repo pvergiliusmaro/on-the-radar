@@ -84,13 +84,14 @@ Useful if you want to seed your list after the sheet is created, or if you want 
 
 ⠀
 ## Status
-This is a working personal tool I built for my own job search and am open sourcing in case it's useful to others. It's not a polished product — there are rough edges, and I'm not providing support. Fork it, adapt it, make it yours.
+This is a working personal tool I built for my own job search and am open sourcing in case it's useful to others. It's not a polished product—there are rough edges, and I'm not providing support. Fork it, adapt it, make it yours.
 
 
 **Known limitations:**
 * Chrome only (no Arc, Brave, Firefox)
 * Perplexity Tasks requires a Pro subscription ($20/month)
-* There are still a number of manual steps-I started down the path of full automation but realized it was overkill. A little tab-switching and copy-pasting is an acceptable tradeoff.
+* There are still a number of manual steps. I wanted this to run on Pro accounts rather than API calls, which meant accepting a little tab-switching and copy-pasting in exchange for lower complexity and cost.
+
 
 
 *Built May 2026*
